@@ -1,5 +1,5 @@
 #!/bin/bash
-monthly_income = int(input("Enter monthly income:"))
+monthly_income = int(input("Enter your monthly income:"))
 total_monthly_expenses = int(input("Enter your total monthly expenses:"))
 monthly_savings = (monthly_income - total_monthly_expenses)
 print(f"Your monthly savings are {monthly_savings}")
