@@ -1,5 +1,5 @@
 #!/bun/bash
-rows = input("Enter the size of the pattern")
+rows = int(input("Enter the size of the pattern"))
 i = 0
 while i <= 4:
     for i in range(1, 5):
