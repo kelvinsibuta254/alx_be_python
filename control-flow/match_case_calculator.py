@@ -1,6 +1,6 @@
 #!/bin/bash
-num1 = input("Enter the first number: ")
-num2 = input("Enter the second number: ")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 choose_the_operation = input("Choose the operation (+, -, *, /):")
 match operation:
     case "+":
